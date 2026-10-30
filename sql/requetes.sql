@@ -20,3 +20,4 @@ GROUP BY c.id, c.nom;
 
 -- Q1.5.6 : La valeur totale du stock
 SELECT SUM(prix * quantite) AS valeur_totale_stock FROM produits;
+INSERT INTO categories (nom, description) VALUES ('Électroménager', 'Petits appareils');
